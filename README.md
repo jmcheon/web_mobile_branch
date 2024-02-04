@@ -1,9 +1,16 @@
-
 ## Web, mobile branch
 
 ### Web branch
 <table>
 <tr><th>Project</th><th>Team</th><th>Time</th><th>XP</th><th>Description</th></tr>
+<tr>
+	<td>Piscine Django <td>Solo<td>63h<td>9450
+	<td> Initiation  - Starting  - Oob  - Lib  - Base Django  - SQL  - Sessions - Advanced - Final
+</tr>
+<tr>
+	<td>Piscine Symfony <td>Solo<td>63h<td>9450
+	<td> Initiation  - Starting  - Oob  - Composer  - Base Symfony  - SQL  - Sessions - Advanced - Final
+</tr>
 <tr>
 	<td>darkly <td>Group 2<td>98h<td>6300
 	<td>Introductory project to computer security in the specific domain of the web, this project will make you dissect a vulnerable website. In doing so, you will develop your own way of thinking about security in a web application and become aware of the problems related to simple development errors, both from a programming point of view and from a design point of view.
@@ -40,7 +47,7 @@ pie  title XP for Web projects
 ```
 
 ```mermaid
-pie  title required time for Web projects
+pie  title required hours for Web projects
 	"camagru"  : 49
 	"darkly"  : 98
 	"matcha"  : 98
@@ -52,6 +59,8 @@ pie  title required time for Web projects
 ### Web branch
 ```mermaid
 flowchart LR
+	p(Piscine Django)
+	p1(Piscine Symfony)
 	A((camagru))
 	B((darkly)):::group
 	F((hypertube)):::group
@@ -81,7 +90,7 @@ pie  title XP for Mobile projects
 ```
 
 ```mermaid
-pie  title required time for Mobile projects
+pie  title required hours for Mobile projects
 	"ft_hangouts"  : 49
 	"swifty-companion"  : 49
 	"swifty-proteins"  : 147
