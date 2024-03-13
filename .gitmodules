@@ -1,0 +1,3 @@
+[submodule "hypertube"]
+	path = hypertube
+	url = https://github.com/jmcheon/hypertube
