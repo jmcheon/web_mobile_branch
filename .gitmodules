@@ -1,3 +1,12 @@
 [submodule "hypertube"]
 	path = hypertube
 	url = https://github.com/jmcheon/hypertube
+    branch = main
+[submodule "tokenizer"]
+	path = tokenizer
+	url = https://github.com/jmcheon/tokenizer
+    branch = main
+[submodule "django_piscine"]
+	path = django_piscine
+	url = https://github.com/jmcheon/django_piscine
+    branch = main
