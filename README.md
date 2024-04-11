@@ -5,11 +5,15 @@
 <tr><th>Project</th><th>Team</th><th>Time</th><th>XP</th><th>Description</th></tr>
 <tr>
 	<td>Piscine Django <td>Solo<td>63h<td>9450
-	<td> Initiation  - Starting  - Oob  - Lib  - Base Django  - SQL  - Sessions - Advanced - Final
+	<td> 0. Initiation  - 0. Starting(1500)  - 0. Oob  - 1. Lib(3475)  - 1. Base Django  - 2. SQL(1000)  - 3. Sessions - 3. Advanced - 3. Final(3475)
 </tr>
 <tr>
 	<td>Piscine Symfony <td>Solo<td>63h<td>9450
-	<td> Initiation  - Starting  - Oob  - Composer  - Base Symfony  - SQL  - Sessions - Advanced - Final
+	<td> 0. Initiation  - 0. Starting(1500)  - 0. Oob  - 1. Composer(3475)  - 1. Base Symfony  - 2. SQL(1000)  - 3. Sessions - 3. Advanced -  3. Final(3475)
+</tr>
+<tr>
+	<td>Tokenizer <td>Solo<td>98h<td>9450<td>
+This project allows you to learn the basics in web3. You will have to create your personal token!
 </tr>
 <tr>
 	<td>darkly <td>Group 2<td>98h<td>6300
@@ -38,6 +42,9 @@
 
 ```mermaid
 pie  title XP for Web projects
+	"Piscine Django"  : 9450
+	"Piscine Symfony"  : 9450
+	"Tokenizer"  : 9450
 	"camagru"  : 4200
 	"darkly"  : 6300
 	"matcha"  : 9450
@@ -48,6 +55,9 @@ pie  title XP for Web projects
 
 ```mermaid
 pie  title required hours for Web projects
+	"Piscine Django"  : 63
+	"Piscine Symfony"  : 63
+	"Tokenizer"  : 98
 	"camagru"  : 49
 	"darkly"  : 98
 	"matcha"  : 98
@@ -61,6 +71,7 @@ pie  title required hours for Web projects
 flowchart LR
 	p(Piscine Django)
 	p1(Piscine Symfony)
+	p2(Tokenizer)
 	A((camagru))
 	B((darkly)):::group
 	F((hypertube)):::group
@@ -77,6 +88,7 @@ flowchart LR
 ### Mobile branch
 <table>
 <tr><th>Project</th><th>Team</th><th>Time</th><th>XP</th><th>Description</th></tr>
+<tr><td>Piscine mobile <td>solo<td>63h<td>4200<td>0. Basic of the mobile application(500) - 1. Structure and logic(950) - 2. API and data(1000) - 3. Design(2000) - 4. Auth and dataBase(2000) - 5. Manage data and display(3000)<tr>
 <tr><td>ft_hangouts <td>solo<td>49h<td>4200<td>The goal of this project is to get you acquainted with mobile app development. You will create a contact management mobile app. You will have to understand how an mobile app functions, how mobile manages your application and how to use the SDK</tr>
 <tr><td>swifty-companion <td>solo<td>49h<td>4200<td>This project is an introduction to mobile programming. The goal is to create, an application which will allow you to get infos about 42students, using the API.</tr>
 <tr><td>swifty-proteins <td>Group 2<td>147h<td>15750<td>This project will give you the opportunity to create 3D scenes. For the most part, you will make an application that models ligands in 3D. This will also help you to deepen your knowledge of a mobile framework.</tr>
@@ -84,6 +96,7 @@ flowchart LR
 
 ```mermaid
 pie  title XP for Mobile projects
+	"Piscine mobile"  : 9450
 	"ft_hangouts"  : 4200
 	"swifty-companion"  : 4200
 	"swifty-proteins"  : 15750
@@ -91,6 +104,7 @@ pie  title XP for Mobile projects
 
 ```mermaid
 pie  title required hours for Mobile projects
+	"Piscine mobile"  : 63
 	"ft_hangouts"  : 49
 	"swifty-companion"  : 49
 	"swifty-proteins"  : 147
@@ -100,6 +114,7 @@ pie  title required hours for Mobile projects
 ### Mobile branch
 ```mermaid
 flowchart LR
+	p(Piscine mobile)
 	0(Mobile) -- 49h, 4200XP --> A((ft_hangouts))
 	0 -- 49h, 4200XP -->B((swifty-companion))
 	B -- 147h, 15750XP -->C((swifty-proteins)):::group
