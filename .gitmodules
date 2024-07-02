@@ -10,3 +10,6 @@
 	path = django_piscine
 	url = https://github.com/jmcheon/django_piscine
     branch = main
+[submodule "tokenizeArt"]
+	path = tokenizeArt
+	url = https://github.com/jmcheon/tokenizeArt.git
