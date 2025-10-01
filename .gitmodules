@@ -12,4 +12,4 @@
     branch = main
 [submodule "tokenizeArt"]
 	path = tokenizeArt
-	url = https://github.com/jmcheon/tokenizeArt.git
+	url = https://github.com/jmcheon/tokenizeArt
